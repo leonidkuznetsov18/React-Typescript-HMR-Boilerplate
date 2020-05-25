@@ -5,9 +5,9 @@
   "author": "Leonid Kuznetsov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashleygwilliams/my_package/issues"
+    "url": "https://github.com/MrChe/React-Typescript-HMR-Boilerplate/issues"
   },
-  "homepage": "https://github.com/ashleygwilliams/my_package",
+  "homepage": "https://github.com/MrChe/React-Typescript-HMR-Boilerplate",
   "keywords": ["React", "Typescript", "Boilerplate", "HMR"],
   "scripts": {
     "lint": "eslint --ext '.tsx,.ts' ./src --format codeframe",
