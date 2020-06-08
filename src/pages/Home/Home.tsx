@@ -1,7 +1,8 @@
 import React from 'react';
+import { format } from 'date-fns';
 
 const Home = () => {
-  return <div>Homedasd</div>;
+  return <div>{format(new Date(), "'Today is a' iiii")}</div>;
 };
 
 export default Home;
