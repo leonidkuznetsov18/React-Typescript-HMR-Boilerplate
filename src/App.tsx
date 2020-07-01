@@ -2,6 +2,7 @@ import React, { Suspense, lazy, Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { LinearProgress } from '@material-ui/core';
 import { GlobalStyle } from './globalStyle';
+import { hot } from 'react-hot-loader/root';
 
 // split coding (chunks)
 const Home = lazy(() => import('pages/Home/Home'));
@@ -23,4 +24,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default hot(App);
